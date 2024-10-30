@@ -1,0 +1,29 @@
+.add-task-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    margin: 20px; 
+}
+
+.open-btn {
+    margin-bottom: 16px;
+    background-color: #1976d2;
+    color: white; 
+    transition: background-color 0.3s; 
+}
+
+.open-btn:hover {
+    background-color: #1565c0; 
+}
+
+
+.TaskForm {
+    width: 100%;
+    max-width: 400px; 
+    padding: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9; 
+}
