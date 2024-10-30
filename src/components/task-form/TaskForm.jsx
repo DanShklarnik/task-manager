@@ -43,20 +43,20 @@ const TaskForm = () => {
              onChange={handleChange}
             />
 
-        <FormControl variant="outlined" fullWidth>
-            <InputLabel id="dropdown-label">How Urgent is the task?</InputLabel>
-            <Select
-                name = "priority"
-                labelId="dropdown-label"
-                value={formData.priority}
-                onChange={handleChange}
-                label="How Urgent is the task?"
-            >
-                <MenuItem value="high priority">High Priority</MenuItem>
-                <MenuItem value="medium priority">Medium Priority</MenuItem>
-                <MenuItem value="low priority">Low Priority</MenuItem>
-            </Select>
-        </FormControl>
+            <FormControl variant="outlined" fullWidth>
+                <InputLabel id="dropdown-label">How Urgent is the task?</InputLabel>
+                <Select
+                    name = "priority"
+                    labelId="dropdown-label"
+                    value={formData.priority}
+                    onChange={handleChange}
+                    label="How Urgent is the task?"
+                >
+                    <MenuItem value="high priority">High Priority</MenuItem>
+                    <MenuItem value="medium priority">Medium Priority</MenuItem>
+                    <MenuItem value="low priority">Low Priority</MenuItem>
+                </Select>
+            </FormControl>
             
             <TextField
              name = "estimateTime"
